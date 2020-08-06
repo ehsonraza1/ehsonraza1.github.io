@@ -127,3 +127,13 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* Portfolio CSS */
+.card-title {
+  color: black !important;
+}
+.card-text {
+  color: black !important;
+}
+.row text-center {
+  border-spacing: 10%;
+}
