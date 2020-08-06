@@ -1,6 +1,12 @@
-/* .body {
-  grid-template-rows: auto 1fr auto;
-} */
+font-family: "Recursive", sans-serif;
+.recursive {
+  font-family: "Recursive";
+}
+body {
+  background-image: url(./dewang-gupta-ESEnXckWlLY-unsplash.jpg);
+  background-size: cover;
+  color: white;
+}
 
 .down-logo {
   max-width: 42px;
@@ -37,6 +43,8 @@
 .icon-bar a {
   display: block;
   text-align: center;
+  margin: 5px;
+  border-radius: 50%;
   padding: 16px;
   transition: all 0.3s ease;
   color: white;
@@ -45,11 +53,11 @@
 
 /* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: whitesmoke;
 }
 
-.facebook {
-  background: #3b5998;
+.github {
+  background: #000000;
   color: white;
 }
 
@@ -78,9 +86,44 @@
   display: grid;
   grid-template-columns: minmax(150px, 25%) 1fr;
 }
-/* footer */
+
+.centralImg {
+  max-width: 50%;
+  min-height: 300px;
+}
 #footer {
-  color: black !important;
-  background-color: red;
-  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: white !important;
+  /* background-blend-mode: hard-light; */
+  background-color: black !important;
+  /* // This is in the form rgba(R,G,B,a) where a is your opacity */
+  /* // The rest of your CSS */
+  font-size: 17px;
+}
+
+/* Coming Soon */
+
+/* Position text in the top-left corner */
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+/* Position text in the bottom-left corner */
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+/* Position text in the middle */
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
