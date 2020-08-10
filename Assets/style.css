@@ -4,10 +4,21 @@ font-family: "Recursive", sans-serif;
 }
 body {
   background-image: url(./dewang-gupta-ESEnXckWlLY-unsplash.jpg);
+
   background-size: cover;
   color: white;
 }
-
+body.blog {
+  background-image: url(./pexels-alfonso-escalante-2533092.jpg);
+  /* Credits: https://www.pexels.com/photo/low-angle-photo-of-volkswagen-kombi-2533092/ */
+  background-repeat: no-repeat;
+  background-size: 100rem;
+  color: white;
+}
+/* Change Color of BLOG NavBar */
+body.blog.navbar-nav.ml-auto li a {
+  color: #bb0000;
+}
 .down-logo {
   max-width: 42px;
 }
@@ -137,3 +148,4 @@ body {
 .row text-center {
   border-spacing: 10%;
 }
+/* Resume Section */

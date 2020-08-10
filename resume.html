@@ -32,12 +32,12 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Assets/style.css" />
   </head>
-  <body class="portfolio">
+  <body class="resume">
     <header>
       <!-- Nav Bar -->
-            <!-- Nav Bar -->
       <nav class="navbar navbar-expand-md navbar-dark bg-transparent" >
         <a class="navbar-brand" href="index.html"><img id="frog-logo" src="./Assets/frog-logo.png"></a>
         <button
@@ -59,11 +59,11 @@
                 >About <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
             </li>
              </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="./resume.html">Resume</a>
             </li>
             <li class="nav-item dropdown">
@@ -111,90 +111,94 @@
           </ul>
         </div>
       </nav>
-      <!-- body -->
-      <div class="container">
-         <!--SECOND ROW-->
-      <div class="row text-center under-hero">
-      <!--FIRST COLUMN: PIC-->
-       <div class="col-lg-6 col-md-12 my-col">
-      <section>
-        <div class="card mx-auto">
-          <img
-            src="./Assets/middleground.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Middle Ground</h5>
-            <p class="card-text">
-              Middleground is a website that aims to aggregate news from all sides of the political spectrum and strives to bring you the objective truth. We leveraged NYTimes API, Bing News API and Hoaxy API to accomplish this.
-            </p>
-          </div>
-          <div class="card-footer text-muted">
-            <a
-              href="https://szaster.github.io/Project1/"
-              class="card-link"
-              target="_blank"
-              >Live Site</a
-            >
-            <a href="https://github.com/szaster/Your-Breaking-News"
-              class="card-link"
-              target="_blank"
-              >GitHub Repo</a>
-          </div>
-        </div>
-      </section>
-    </div>
-    
-    <!-- Col 2 -->
-    <div class="col-lg-6 col-md-12 my-col">
-                <section>
-                    <div class="card mx-auto">
-                        <img src="./Assets/personalcare.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Personal Care</h5>
-                          <p class="card-text">This app is designed for business owners that operate in beauty industry in the Houston market. The content on this website is user-generated i.e. businesses are able to advertise the services they offer and customers can leave reviews on those businesses.  </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <a href="https://personal-care1.herokuapp.com/" class="card-link" target="_blank">Live Site</a>
-                            <a href="https://github.com/barnes-malcolm/personal-care" class="card-link" target="_blank">GitHub Repo</a>
-                        </div>
-                      </div>
-                </section>
+      <!-- Hero Image/Jumbotron -->
+       <div class="container">
+        <!-- SECOND ROW: RESUME INFO -->
+        <div class="row under-hero">
+             <!-- FIRST COLUMN: RESUME NAV -->
+            <div id="list-example" class="d-none d-xl-block col-3 bd-toc">
+                <div>
+                    <img src="assets/images/jonahpic.jpg" alt="" width="100%" class="mb-3"/>
+                </div>
+                <div class="mb-4 text-center">
+                    <a href="./assets/resume.pdf" download>DOWNLOAD RESUME PDF</a>
+                </div>
+                <div  class="list-group list-group-flush">
+                    <a class="list-group-item list-group-item-action text-center item1" href="#list-item-1">Objective</a>
+                    <a class="list-group-item list-group-item-action text-center item2" href="#list-item-2">Experience</a>
+                    <a class="list-group-item list-group-item-action text-center item3" href="#list-item-3">Skills</a>
+                    <a class="list-group-item list-group-item-action text-center item4" href="#list-item-4">Education</a>
+                    <a class="list-group-item list-group-item-action text-center item5" href="#list-item-5">Hobbies</a>
+                </div>
             </div>
-  </div>
-  <div class="row text-center under-hero">
-    <!--FIRST COLUMN: PIC-->
-    <div class="col-lg-6 col-md-12 my-col">
-      <section>
-        <div class="card mx-auto">
-          <img
-            src="./Assets/note taker.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Note Taker</h5>
-            <p class="card-text">
-              Middleground is a website that aims to aggregate news from all sides of the political spectrum and strives to bring you the objective truth. We leveraged NYTimes API, Bing News API and Hoaxy API to accomplish this.
-            </p>
-          </div>
-          <div class="card-footer text-muted">
-            <a
-              href="https://warm-escarpment-11875.herokuapp.com/"
-              class="card-link"
-              target="_blank"
-              >Live Site</a
-            >
-            <a href="https://github.com/ehsonraza1/Express-Homework-Note-Taker"
-              class="card-link"
-              target="_blank"
-              >GitHub Repo</a>
-          </div>
+            <!-- SECOND COLUMN: RESUME TEXT -->
+            <div class="col-9 pl-5">
+                <!-- <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example"> -->
+                <div>
+                    <h4 id="list-item-1" data-name="education">OBJECTIVE</h4>
+                    <p>Placeholder Text</p>
+                    <br><br><br>
+                    <h4 id="list-item-2" data-name="experience">EXPERIENCE</h4>
+                        <p>
+                        <strong>Position1</strong><br>
+                        Location  (Tenure)<br>
+                        </p>
+                        <br>
+
+                        <p>
+                        <strong>Position2</strong><br>
+                        Location  (Tenure))<br>
+                        </p>
+                    <br><br><br>
+                    <h4 id="list-item-3" data-name="skills">SKILLS</h4>
+                    <div class="row">
+                        <div class="col">
+                            <ul>
+                                <li><strong>Technical Skills</strong></li>
+                                <li>- HTML</li>
+                                <li>- CSS</li>
+                                <li>- Bootstrap CSS</li>
+                                <li>- Materialize CSS</li>
+                                <li>- Javascript</li>
+                                <li>- JSON</li>
+                                <li>- jQuery</li>
+                                <li>- AJAX</li>
+                                <li>- Web APIs</li>
+                                <li>- Node.js</li>
+                                <li>- UI/UX Design</li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><strong>Additional Skills</strong></li>
+                                <li>- Placeholder</li>
+                                <li>- Placeholder</li>
+                               
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                    <br><br><br>
+                    <h4 id="list-item-4" data-name="education">EDUCATION</h4>
+                    <div class="row">
+                        <p class="col">
+                        <strong>University of Houston </strong><br>
+                        Houston, TX (May 2010)<br>
+                        Bachelors in Business Administration - Accounting & Finance
+                        </p>
+                        <p class="col">
+                            <img src="" alt="" height=""/>
+                        </p>
+                    </div>
+                    <br><br><br>
+
+                    <h4 id="list-item-5" data-name="hobbies">HOBBIES</h4>
+                    <p>Placeholder</p>
+                    <br><br><br>
+                </div>
+            </div>
         </div>
-      </section>
     </div>
-  </div>
     </header>
     <footer class="navbar navbar-dark bg-transparent" id="footer">
         <div class="container">
@@ -204,8 +208,7 @@
         </div>
         
     </footer>
-     <!-- Navbar Logo -->
-        <div class="icon-bar">
+    <div class="icon-bar">
           <a href="https://www.linkedin.com/in/ehsonraza/" target="_blank"class="linkedin"><i class="fa fa-linkedin"></i></a>
           <a href="https://github.com/ehsonraza1" target="_blank"class="github"><i class="fa fa-github" ></i></a>
           <!-- <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> -->
